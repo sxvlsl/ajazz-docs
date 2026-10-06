@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Ajazz AK820 - Linux RGB & Driver Protocol
 
 Documentación y herramientas de ingeniería inversa para el control de iluminación RGB y configuración del teclado **Ajazz AK820 (Wired Version)** de forma nativa en Linux sin depender del software propietario de Windows.
