@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window >
+	<EevisionKeyboardDevice>
+	<Label name="text_test" float="true" pos="0,0" width="0" height="0" resourcetext="true" visible="false"/>
+	<HorizontalLayout name="kb_device">
+		<!--配置文件控件-->
+		<DeviceProfileUI width="190" padding="18,0,0,0"/>
+		<!--设备功能切换区域-->
+		<TabLayout name="device_function_switch" width="766" height="510" padding="8,74,0,0" vscrollbar="false">		
+			<VerticalLayout width="766" height="488">
+				<!-- 上  -->
+				<AudioRecord name="audiotest" height="306" width="766"  visible="false" bkcolor="#00ffffff"/>
+			
+				<HorizontalLayout height="306" bkcolor="#00ffffff" visible="true" >
+					<SelectPanel name="keyboard_device_key_light" bkimage="file='kb/KbKey_normal.png' dest='0,0,673,218'" width="673"height="218" padding="40,20,0,0">
+
+		<DeviceKeyButton name="key_105" style="k_btn_style" pos="100,170,0,0" width="34" height="26"
+		userdata="light_105" tooltip="Ctrl" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/105.png'" keysetimage="file='kb/keyset/105.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,170,134,196'"
+		hotimage="file='kb/kbKey_over.png' source='100,170,134,196'"
+		pushedimage="file='kb/kbKey_down.png' source='100,170,134,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,170,134,196'"/>
+
+	<DeviceKeyButton name="key_106" style="k_btn_style" pos="136,170,0,0" width="34" height="26"
+		userdata="light_106" tooltip="Win" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/106.png'" keysetimage="file='kb/keyset/106.png'"
+		normalimage="file='kb/kbKey_normal.png' source='136,170,170,196'"
+		hotimage="file='kb/kbKey_over.png' source='136,170,170,196'"
+		pushedimage="file='kb/kbKey_down.png' source='136,170,170,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='136,170,170,196'"/>
+
+	<DeviceKeyButton name="key_107" style="k_btn_style" pos="172,170,0,0" width="35" height="26"
+		userdata="light_107" tooltip="Alt" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/107.png'" keysetimage="file='kb/keyset/107.png'"
+		normalimage="file='kb/kbKey_normal.png' source='172,170,207,196'"
+		hotimage="file='kb/kbKey_over.png' source='172,170,207,196'"
+		pushedimage="file='kb/kbKey_down.png' source='172,170,207,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='172,170,207,196'"/>
+
+	<DeviceKeyButton name="key_112" style="k_btn_style" pos="447,170,0,0" width="28" height="26"
+		userdata="light_112" tooltip="Right Ctrl" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/112.png'" keysetimage="file='kb/keyset/112.png'"
+		normalimage="file='kb/kbKey_normal.png' source='447,170,475,196'"
+		hotimage="file='kb/kbKey_over.png' source='447,170,475,196'"
+		pushedimage="file='kb/kbKey_down.png' source='447,170,475,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='447,170,475,196'"/>
+
+	<DeviceKeyButton name="key_111" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_111" tooltip="App" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/111.png'" keysetimage="file='kb/keyset/111.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_110" style="k_btn_style" pos="418,170,0,0" width="28" height="26"
+		userdata="light_110" tooltip="Fn" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/110.png'" keysetimage="file='kb/keyset/110.png'"
+		normalimage="file='kb/kbKey_normal.png' source='418,170,446,196'"
+		hotimage="file='kb/kbKey_over.png' source='418,170,446,196'"
+		pushedimage="file='kb/kbKey_down.png' source='418,170,446,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='418,170,446,196'"/>
+
+	<DeviceKeyButton name="key_109" style="k_btn_style" pos="389,170,0,0" width="28" height="26"
+		userdata="light_109" tooltip="Right Alt" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/109.png'" keysetimage="file='kb/keyset/109.png'"
+		normalimage="file='kb/kbKey_normal.png' source='389,170,417,196'"
+		hotimage="file='kb/kbKey_over.png' source='389,170,417,196'"
+		pushedimage="file='kb/kbKey_down.png' source='389,170,417,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='389,170,417,196'"/>
+
+	<DeviceKeyButton name="key_108" style="k_btn_style" pos="208,170,0,0" width="179" height="26"
+		userdata="light_108" tooltip="Space" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/108.png'" keysetimage="file='kb/keyset/108.png'"
+		normalimage="file='kb/kbKey_normal.png' source='208,170,387,196'"
+		hotimage="file='kb/kbKey_over.png' source='208,170,387,196'"
+		pushedimage="file='kb/kbKey_down.png' source='208,170,387,196'"
+		disabledimage="file='kb/kbKey_disable.png' source='208,170,387,196'"/>
+
+	<DeviceKeyButton name="key_113" style="k_btn_style" pos="483,176,0,0" width="26" height="26"
+		userdata="light_113" tooltip="Left" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/113.png'" keysetimage="file='kb/keyset/113.png'"
+		normalimage="file='kb/kbKey_normal.png' source='483,176,509,202'"
+		hotimage="file='kb/kbKey_over.png' source='483,176,509,202'"
+		pushedimage="file='kb/kbKey_down.png' source='483,176,509,202'"
+		disabledimage="file='kb/kbKey_disable.png' source='483,176,509,202'"/>
+
+	<DeviceKeyButton name="key_114" style="k_btn_style" pos="512,176,0,0" width="26" height="26"
+		userdata="light_114" tooltip="Down" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/114.png'" keysetimage="file='kb/keyset/114.png'"
+		normalimage="file='kb/kbKey_normal.png' source='512,176,538,202'"
+		hotimage="file='kb/kbKey_over.png' source='512,176,538,202'"
+		pushedimage="file='kb/kbKey_down.png' source='512,176,538,202'"
+		disabledimage="file='kb/kbKey_disable.png' source='512,176,538,202'"/>
+
+	<DeviceKeyButton name="key_115" style="k_btn_style" pos="541,176,0,0" width="26" height="26"
+		userdata="light_115" tooltip="Right" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/115.png'" keysetimage="file='kb/keyset/115.png'"
+		normalimage="file='kb/kbKey_normal.png' source='541,176,567,202'"
+		hotimage="file='kb/kbKey_over.png' source='541,176,567,202'"
+		pushedimage="file='kb/kbKey_down.png' source='541,176,567,202'"
+		disabledimage="file='kb/kbKey_disable.png' source='541,176,567,202'"/>
+
+	<DeviceKeyButton name="key_116" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_116" tooltip="Num 0" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/116.png'" keysetimage="file='kb/keyset/116.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_117" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_117" tooltip="Num ." usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/117.png'" keysetimage="file='kb/keyset/117.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_122" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_122" tooltip="M3" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/122.png'" keysetimage="file='kb/keyset/122.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_123" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_123" tooltip="M4" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/123.png'" keysetimage="file='kb/keyset/123.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_124" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_124" tooltip="M5" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/124.png'" keysetimage="file='kb/keyset/124.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_125" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_125" tooltip="Rwin" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/125.png'" keysetimage="file='kb/keyset/125.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_121" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_121" tooltip="M2" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/121.png'" keysetimage="file='kb/keyset/121.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_120" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_120" tooltip="M1" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/120.png'" keysetimage="file='kb/keyset/120.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_118" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_118" tooltip="Num Enter" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/118.png'" keysetimage="file='kb/keyset/118.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_84" style="k_btn_style" pos="100,140,0,0" width="63" height="27"
+		userdata="light_84" tooltip="Shift" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/84.png'" keysetimage="file='kb/keyset/84.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,140,163,167'"
+		hotimage="file='kb/kbKey_over.png' source='100,140,163,167'"
+		pushedimage="file='kb/kbKey_down.png' source='100,140,163,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,140,163,167'"/>
+
+	<DeviceKeyButton name="key_85" style="k_btn_style" pos="165,140,0,0" width="27" height="27"
+		userdata="light_85" tooltip="Z" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/85.png'" keysetimage="file='kb/keyset/85.png'"
+		normalimage="file='kb/kbKey_normal.png' source='165,140,192,167'"
+		hotimage="file='kb/kbKey_over.png' source='165,140,192,167'"
+		pushedimage="file='kb/kbKey_down.png' source='165,140,192,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='165,140,192,167'"/>
+
+	<DeviceKeyButton name="key_86" style="k_btn_style" pos="194,140,0,0" width="27" height="27"
+		userdata="light_86" tooltip="X" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/86.png'" keysetimage="file='kb/keyset/86.png'"
+		normalimage="file='kb/kbKey_normal.png' source='194,140,221,167'"
+		hotimage="file='kb/kbKey_over.png' source='194,140,221,167'"
+		pushedimage="file='kb/kbKey_down.png' source='194,140,221,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='194,140,221,167'"/>
+
+	<DeviceKeyButton name="key_87" style="k_btn_style" pos="223,140,0,0" width="27" height="27"
+		userdata="light_87" tooltip="C" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/87.png'" keysetimage="file='kb/keyset/87.png'"
+		normalimage="file='kb/kbKey_normal.png' source='223,140,250,167'"
+		hotimage="file='kb/kbKey_over.png' source='223,140,250,167'"
+		pushedimage="file='kb/kbKey_down.png' source='223,140,250,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='223,140,250,167'"/>
+
+	<DeviceKeyButton name="key_88" style="k_btn_style" pos="252,140,0,0" width="27" height="27"
+		userdata="light_88" tooltip="V" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/88.png'" keysetimage="file='kb/keyset/88.png'"
+		normalimage="file='kb/kbKey_normal.png' source='252,140,279,167'"
+		hotimage="file='kb/kbKey_over.png' source='252,140,279,167'"
+		pushedimage="file='kb/kbKey_down.png' source='252,140,279,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='252,140,279,167'"/>
+
+	<DeviceKeyButton name="key_89" style="k_btn_style" pos="281,140,0,0" width="27" height="27"
+		userdata="light_89" tooltip="B" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/89.png'" keysetimage="file='kb/keyset/89.png'"
+		normalimage="file='kb/kbKey_normal.png' source='281,140,308,167'"
+		hotimage="file='kb/kbKey_over.png' source='281,140,308,167'"
+		pushedimage="file='kb/kbKey_down.png' source='281,140,308,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='281,140,308,167'"/>
+
+	<DeviceKeyButton name="key_90" style="k_btn_style" pos="310,140,0,0" width="27" height="27"
+		userdata="light_90" tooltip="N" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/90.png'" keysetimage="file='kb/keyset/90.png'"
+		normalimage="file='kb/kbKey_normal.png' source='310,140,337,167'"
+		hotimage="file='kb/kbKey_over.png' source='310,140,337,167'"
+		pushedimage="file='kb/kbKey_down.png' source='310,140,337,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='310,140,337,167'"/>
+
+	<DeviceKeyButton name="key_91" style="k_btn_style" pos="339,140,0,0" width="27" height="27"
+		userdata="light_91" tooltip="M" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/91.png'" keysetimage="file='kb/keyset/91.png'"
+		normalimage="file='kb/kbKey_normal.png' source='339,140,366,167'"
+		hotimage="file='kb/kbKey_over.png' source='339,140,366,167'"
+		pushedimage="file='kb/kbKey_down.png' source='339,140,366,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='339,140,366,167'"/>
+
+	<DeviceKeyButton name="key_92" style="k_btn_style" pos="368,140,0,0" width="27" height="27"
+		userdata="light_92" tooltip="," usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/92.png'" keysetimage="file='kb/keyset/92.png'"
+		normalimage="file='kb/kbKey_normal.png' source='368,140,395,167'"
+		hotimage="file='kb/kbKey_over.png' source='368,140,395,167'"
+		pushedimage="file='kb/kbKey_down.png' source='368,140,395,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='368,140,395,167'"/>
+
+	<DeviceKeyButton name="key_93" style="k_btn_style" pos="397,140,0,0" width="27" height="27"
+		userdata="light_93" tooltip="." usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/93.png'" keysetimage="file='kb/keyset/93.png'"
+		normalimage="file='kb/kbKey_normal.png' source='397,140,424,167'"
+		hotimage="file='kb/kbKey_over.png' source='397,140,424,167'"
+		pushedimage="file='kb/kbKey_down.png' source='397,140,424,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='397,140,424,167'"/>
+
+	<DeviceKeyButton name="key_94" style="k_btn_style" pos="426,140,0,0" width="27" height="27"
+		userdata="light_94" tooltip="/" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/94.png'" keysetimage="file='kb/keyset/94.png'"
+		normalimage="file='kb/kbKey_normal.png' source='426,140,453,167'"
+		hotimage="file='kb/kbKey_over.png' source='426,140,453,167'"
+		pushedimage="file='kb/kbKey_down.png' source='426,140,453,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='426,140,453,167'"/>
+
+	<DeviceKeyButton name="key_95" style="k_btn_style" pos="454,140,0,0" width="49" height="27"
+		userdata="light_95" tooltip="Rightshift" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/95.png'" keysetimage="file='kb/keyset/95.png'"
+		normalimage="file='kb/kbKey_normal.png' source='454,140,503,167'"
+		hotimage="file='kb/kbKey_over.png' source='454,140,503,167'"
+		pushedimage="file='kb/kbKey_down.png' source='454,140,503,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='454,140,503,167'"/>
+
+	<DeviceKeyButton name="key_96" style="k_btn_style" pos="512,147,0,0" width="26" height="26"
+		userdata="light_96" tooltip="Up" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/96.png'" keysetimage="file='kb/keyset/96.png'"
+		normalimage="file='kb/kbKey_normal.png' source='512,147,538,173'"
+		hotimage="file='kb/kbKey_over.png' source='512,147,538,173'"
+		pushedimage="file='kb/kbKey_down.png' source='512,147,538,173'"
+		disabledimage="file='kb/kbKey_disable.png' source='512,147,538,173'"/>
+
+	<DeviceKeyButton name="key_97" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_97" tooltip="Num 1" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/97.png'" keysetimage="file='kb/keyset/97.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_98" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_98" tooltip="Num 2" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/98.png'" keysetimage="file='kb/keyset/98.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_99" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_99" tooltip="Num 3" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/99.png'" keysetimage="file='kb/keyset/99.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_100" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_100" tooltip="K56" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/100.png'" keysetimage="file='kb/keyset/100.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_101" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_101" tooltip="K14" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/101.png'" keysetimage="file='kb/keyset/101.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_102" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_102" tooltip="K45" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/102.png'" keysetimage="file='kb/keyset/102.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_103" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_103" tooltip="K107" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/103.png'" keysetimage="file='kb/keyset/103.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_104" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_104" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/104.png'" keysetimage="file='kb/keyset/104.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_63" style="k_btn_style" pos="100,111,0,0" width="49" height="27"
+		userdata="light_63" tooltip="CapsLock" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/63.png'" keysetimage="file='kb/keyset/63.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,111,149,138'"
+		hotimage="file='kb/kbKey_over.png' source='100,111,149,138'"
+		pushedimage="file='kb/kbKey_down.png' source='100,111,149,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,111,149,138'"/>
+
+	<DeviceKeyButton name="key_64" style="k_btn_style" pos="150,111,0,0" width="28" height="27"
+		userdata="light_64" tooltip="A" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/64.png'" keysetimage="file='kb/keyset/64.png'"
+		normalimage="file='kb/kbKey_normal.png' source='150,111,178,138'"
+		hotimage="file='kb/kbKey_over.png' source='150,111,178,138'"
+		pushedimage="file='kb/kbKey_down.png' source='150,111,178,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='150,111,178,138'"/>
+
+	<DeviceKeyButton name="key_65" style="k_btn_style" pos="179,111,0,0" width="28" height="27"
+		userdata="light_65" tooltip="S" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/65.png'" keysetimage="file='kb/keyset/65.png'"
+		normalimage="file='kb/kbKey_normal.png' source='179,111,207,138'"
+		hotimage="file='kb/kbKey_over.png' source='179,111,207,138'"
+		pushedimage="file='kb/kbKey_down.png' source='179,111,207,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='179,111,207,138'"/>
+
+	<DeviceKeyButton name="key_66" style="k_btn_style" pos="208,111,0,0" width="28" height="27"
+		userdata="light_66" tooltip="D" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/66.png'" keysetimage="file='kb/keyset/66.png'"
+		normalimage="file='kb/kbKey_normal.png' source='208,111,236,138'"
+		hotimage="file='kb/kbKey_over.png' source='208,111,236,138'"
+		pushedimage="file='kb/kbKey_down.png' source='208,111,236,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='208,111,236,138'"/>
+
+	<DeviceKeyButton name="key_67" style="k_btn_style" pos="237,111,0,0" width="28" height="27"
+		userdata="light_67" tooltip="F" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/67.png'" keysetimage="file='kb/keyset/67.png'"
+		normalimage="file='kb/kbKey_normal.png' source='237,111,265,138'"
+		hotimage="file='kb/kbKey_over.png' source='237,111,265,138'"
+		pushedimage="file='kb/kbKey_down.png' source='237,111,265,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='237,111,265,138'"/>
+
+	<DeviceKeyButton name="key_68" style="k_btn_style" pos="266,111,0,0" width="28" height="27"
+		userdata="light_68" tooltip="G" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/68.png'" keysetimage="file='kb/keyset/68.png'"
+		normalimage="file='kb/kbKey_normal.png' source='266,111,294,138'"
+		hotimage="file='kb/kbKey_over.png' source='266,111,294,138'"
+		pushedimage="file='kb/kbKey_down.png' source='266,111,294,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='266,111,294,138'"/>
+
+	<DeviceKeyButton name="key_69" style="k_btn_style" pos="295,111,0,0" width="28" height="27"
+		userdata="light_69" tooltip="H" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/69.png'" keysetimage="file='kb/keyset/69.png'"
+		normalimage="file='kb/kbKey_normal.png' source='295,111,323,138'"
+		hotimage="file='kb/kbKey_over.png' source='295,111,323,138'"
+		pushedimage="file='kb/kbKey_down.png' source='295,111,323,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='295,111,323,138'"/>
+
+	<DeviceKeyButton name="key_70" style="k_btn_style" pos="324,111,0,0" width="28" height="27"
+		userdata="light_70" tooltip="J" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/70.png'" keysetimage="file='kb/keyset/70.png'"
+		normalimage="file='kb/kbKey_normal.png' source='324,111,352,138'"
+		hotimage="file='kb/kbKey_over.png' source='324,111,352,138'"
+		pushedimage="file='kb/kbKey_down.png' source='324,111,352,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='324,111,352,138'"/>
+
+	<DeviceKeyButton name="key_71" style="k_btn_style" pos="353,111,0,0" width="28" height="27"
+		userdata="light_71" tooltip="K" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/71.png'" keysetimage="file='kb/keyset/71.png'"
+		normalimage="file='kb/kbKey_normal.png' source='353,111,381,138'"
+		hotimage="file='kb/kbKey_over.png' source='353,111,381,138'"
+		pushedimage="file='kb/kbKey_down.png' source='353,111,381,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='353,111,381,138'"/>
+
+	<DeviceKeyButton name="key_72" style="k_btn_style" pos="382,111,0,0" width="28" height="27"
+		userdata="light_72" tooltip="L" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/72.png'" keysetimage="file='kb/keyset/72.png'"
+		normalimage="file='kb/kbKey_normal.png' source='382,111,410,138'"
+		hotimage="file='kb/kbKey_over.png' source='382,111,410,138'"
+		pushedimage="file='kb/kbKey_down.png' source='382,111,410,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='382,111,410,138'"/>
+
+	<DeviceKeyButton name="key_73" style="k_btn_style" pos="411,111,0,0" width="28" height="27"
+		userdata="light_73" tooltip=";" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/73.png'" keysetimage="file='kb/keyset/73.png'"
+		normalimage="file='kb/kbKey_normal.png' source='411,111,439,138'"
+		hotimage="file='kb/kbKey_over.png' source='411,111,439,138'"
+		pushedimage="file='kb/kbKey_down.png' source='411,111,439,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='411,111,439,138'"/>
+
+	<DeviceKeyButton name="key_74" style="k_btn_style" pos="440,111,0,0" width="28" height="27"
+		userdata="light_74" tooltip="'" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/74.png'" keysetimage="file='kb/keyset/74.png'"
+		normalimage="file='kb/kbKey_normal.png' source='440,111,468,138'"
+		hotimage="file='kb/kbKey_over.png' source='440,111,468,138'"
+		pushedimage="file='kb/kbKey_down.png' source='440,111,468,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='440,111,468,138'"/>
+
+	<DeviceKeyButton name="key_75" style="k_btn_style" pos="469,111,0,0" width="63" height="27"
+		userdata="light_75" tooltip="Enter" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/75.png'" keysetimage="file='kb/keyset/75.png'"
+		normalimage="file='kb/kbKey_normal.png' source='469,111,532,138'"
+		hotimage="file='kb/kbKey_over.png' source='469,111,532,138'"
+		pushedimage="file='kb/kbKey_down.png' source='469,111,532,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='469,111,532,138'"/>
+
+	<DeviceKeyButton name="key_76" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_76" tooltip="Num 4" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/76.png'" keysetimage="file='kb/keyset/76.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_77" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_77" tooltip="Num 5" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/77.png'" keysetimage="file='kb/keyset/77.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_78" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_78" tooltip="Num 6" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/78.png'" keysetimage="file='kb/keyset/78.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_79" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_79" tooltip="CHG" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/79.png'" keysetimage="file='kb/keyset/79.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_82" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_82" tooltip="KL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/82.png'" keysetimage="file='kb/keyset/82.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_83" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_83" tooltip="K133" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/83.png'" keysetimage="file='kb/keyset/83.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_81" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_81" tooltip="KR" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/81.png'" keysetimage="file='kb/keyset/81.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_80" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_80" tooltip="N-CHG" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/80.png'" keysetimage="file='kb/keyset/80.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_42" style="k_btn_style" pos="100,82,0,0" width="42" height="27"
+		userdata="light_42" tooltip="Tab" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/42.png'" keysetimage="file='kb/keyset/42.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,82,142,109'"
+		hotimage="file='kb/kbKey_over.png' source='100,82,142,109'"
+		pushedimage="file='kb/kbKey_down.png' source='100,82,142,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,82,142,109'"/>
+
+	<DeviceKeyButton name="key_43" style="k_btn_style" pos="143,82,0,0" width="27" height="27"
+		userdata="light_43" tooltip="Q" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/43.png'" keysetimage="file='kb/keyset/43.png'"
+		normalimage="file='kb/kbKey_normal.png' source='143,82,170,109'"
+		hotimage="file='kb/kbKey_over.png' source='143,82,170,109'"
+		pushedimage="file='kb/kbKey_down.png' source='143,82,170,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='143,82,170,109'"/>
+
+	<DeviceKeyButton name="key_44" style="k_btn_style" pos="172,82,0,0" width="27" height="27"
+		userdata="light_44" tooltip="W" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/44.png'" keysetimage="file='kb/keyset/44.png'"
+		normalimage="file='kb/kbKey_normal.png' source='172,82,199,109'"
+		hotimage="file='kb/kbKey_over.png' source='172,82,199,109'"
+		pushedimage="file='kb/kbKey_down.png' source='172,82,199,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='172,82,199,109'"/>
+
+	<DeviceKeyButton name="key_45" style="k_btn_style" pos="201,82,0,0" width="27" height="27"
+		userdata="light_45" tooltip="E" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/45.png'" keysetimage="file='kb/keyset/45.png'"
+		normalimage="file='kb/kbKey_normal.png' source='201,82,228,109'"
+		hotimage="file='kb/kbKey_over.png' source='201,82,228,109'"
+		pushedimage="file='kb/kbKey_down.png' source='201,82,228,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='201,82,228,109'"/>
+
+	<DeviceKeyButton name="key_46" style="k_btn_style" pos="230,82,0,0" width="27" height="27"
+		userdata="light_46" tooltip="R" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/46.png'" keysetimage="file='kb/keyset/46.png'"
+		normalimage="file='kb/kbKey_normal.png' source='230,82,257,109'"
+		hotimage="file='kb/kbKey_over.png' source='230,82,257,109'"
+		pushedimage="file='kb/kbKey_down.png' source='230,82,257,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='230,82,257,109'"/>
+
+	<DeviceKeyButton name="key_47" style="k_btn_style" pos="259,82,0,0" width="27" height="27"
+		userdata="light_47" tooltip="T" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/47.png'" keysetimage="file='kb/keyset/47.png'"
+		normalimage="file='kb/kbKey_normal.png' source='259,82,286,109'"
+		hotimage="file='kb/kbKey_over.png' source='259,82,286,109'"
+		pushedimage="file='kb/kbKey_down.png' source='259,82,286,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='259,82,286,109'"/>
+
+	<DeviceKeyButton name="key_48" style="k_btn_style" pos="288,82,0,0" width="27" height="27"
+		userdata="light_48" tooltip="Y" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/48.png'" keysetimage="file='kb/keyset/48.png'"
+		normalimage="file='kb/kbKey_normal.png' source='288,82,315,109'"
+		hotimage="file='kb/kbKey_over.png' source='288,82,315,109'"
+		pushedimage="file='kb/kbKey_down.png' source='288,82,315,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='288,82,315,109'"/>
+
+	<DeviceKeyButton name="key_49" style="k_btn_style" pos="317,82,0,0" width="27" height="27"
+		userdata="light_49" tooltip="U" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/49.png'" keysetimage="file='kb/keyset/49.png'"
+		normalimage="file='kb/kbKey_normal.png' source='317,82,344,109'"
+		hotimage="file='kb/kbKey_over.png' source='317,82,344,109'"
+		pushedimage="file='kb/kbKey_down.png' source='317,82,344,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='317,82,344,109'"/>
+
+	<DeviceKeyButton name="key_50" style="k_btn_style" pos="346,82,0,0" width="27" height="27"
+		userdata="light_50" tooltip="I" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/50.png'" keysetimage="file='kb/keyset/50.png'"
+		normalimage="file='kb/kbKey_normal.png' source='346,82,373,109'"
+		hotimage="file='kb/kbKey_over.png' source='346,82,373,109'"
+		pushedimage="file='kb/kbKey_down.png' source='346,82,373,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='346,82,373,109'"/>
+
+	<DeviceKeyButton name="key_51" style="k_btn_style" pos="375,82,0,0" width="27" height="27"
+		userdata="light_51" tooltip="O" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/51.png'" keysetimage="file='kb/keyset/51.png'"
+		normalimage="file='kb/kbKey_normal.png' source='375,82,402,109'"
+		hotimage="file='kb/kbKey_over.png' source='375,82,402,109'"
+		pushedimage="file='kb/kbKey_down.png' source='375,82,402,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='375,82,402,109'"/>
+
+	<DeviceKeyButton name="key_52" style="k_btn_style" pos="404,82,0,0" width="27" height="27"
+		userdata="light_52" tooltip="P" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/52.png'" keysetimage="file='kb/keyset/52.png'"
+		normalimage="file='kb/kbKey_normal.png' source='404,82,431,109'"
+		hotimage="file='kb/kbKey_over.png' source='404,82,431,109'"
+		pushedimage="file='kb/kbKey_down.png' source='404,82,431,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='404,82,431,109'"/>
+
+	<DeviceKeyButton name="key_53" style="k_btn_style" pos="433,82,0,0" width="27" height="27"
+		userdata="light_53" tooltip="[" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/53.png'" keysetimage="file='kb/keyset/53.png'"
+		normalimage="file='kb/kbKey_normal.png' source='433,82,460,109'"
+		hotimage="file='kb/kbKey_over.png' source='433,82,460,109'"
+		pushedimage="file='kb/kbKey_down.png' source='433,82,460,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='433,82,460,109'"/>
+
+	<DeviceKeyButton name="key_54" style="k_btn_style" pos="462,82,0,0" width="27" height="27"
+		userdata="light_54" tooltip="]" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/54.png'" keysetimage="file='kb/keyset/54.png'"
+		normalimage="file='kb/kbKey_normal.png' source='462,82,489,109'"
+		hotimage="file='kb/kbKey_over.png' source='462,82,489,109'"
+		pushedimage="file='kb/kbKey_down.png' source='462,82,489,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='462,82,489,109'"/>
+
+	<DeviceKeyButton name="key_55" style="k_btn_style" pos="491,82,0,0" width="41" height="27"
+		userdata="light_55" tooltip="\\" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/55.png'" keysetimage="file='kb/keyset/55.png'"
+		normalimage="file='kb/kbKey_normal.png' source='491,82,532,109'"
+		hotimage="file='kb/kbKey_over.png' source='491,82,532,109'"
+		pushedimage="file='kb/kbKey_down.png' source='491,82,532,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='491,82,532,109'"/>
+
+	<DeviceKeyButton name="key_56" style="k_btn_style" pos="505,17,0,0" width="28" height="28"
+		userdata="light_56" tooltip="Delete" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/56.png'" keysetimage="file='kb/keyset/56.png'"
+		normalimage="file='kb/kbKey_normal.png' source='505,17,533,45'"
+		hotimage="file='kb/kbKey_over.png' source='505,17,533,45'"
+		pushedimage="file='kb/kbKey_down.png' source='505,17,533,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='505,17,533,45'"/>
+
+	<DeviceKeyButton name="key_57" style="k_btn_style" pos="547,140,0,0" width="27" height="27"
+		userdata="light_57" tooltip="End" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/57.png'" keysetimage="file='kb/keyset/57.png'"
+		normalimage="file='kb/kbKey_normal.png' source='547,140,574,167'"
+		hotimage="file='kb/kbKey_over.png' source='547,140,574,167'"
+		pushedimage="file='kb/kbKey_down.png' source='547,140,574,167'"
+		disabledimage="file='kb/kbKey_disable.png' source='547,140,574,167'"/>
+
+	<DeviceKeyButton name="key_58" style="k_btn_style" pos="547,111,0,0" width="27" height="27"
+		userdata="light_58" tooltip="PageDown" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/58.png'" keysetimage="file='kb/keyset/58.png'"
+		normalimage="file='kb/kbKey_normal.png' source='547,111,574,138'"
+		hotimage="file='kb/kbKey_over.png' source='547,111,574,138'"
+		pushedimage="file='kb/kbKey_down.png' source='547,111,574,138'"
+		disabledimage="file='kb/kbKey_disable.png' source='547,111,574,138'"/>
+
+	<DeviceKeyButton name="key_59" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_59" tooltip="Num 7" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/59.png'" keysetimage="file='kb/keyset/59.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_60" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_60" tooltip="Num 8" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/60.png'" keysetimage="file='kb/keyset/60.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_61" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_61" tooltip="Num 9" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/61.png'" keysetimage="file='kb/keyset/61.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_62" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_62" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/62.png'" keysetimage="file='kb/keyset/62.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_119" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_119" tooltip="Num +" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/119.png'" keysetimage="file='kb/keyset/119.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_21" style="k_btn_style" pos="100,53,0,0" width="27" height="27"
+		userdata="light_21" tooltip="`" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/21.png'" keysetimage="file='kb/keyset/21.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,53,127,80'"
+		hotimage="file='kb/kbKey_over.png' source='100,53,127,80'"
+		pushedimage="file='kb/kbKey_down.png' source='100,53,127,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,53,127,80'"/>
+
+	<DeviceKeyButton name="key_22" style="k_btn_style" pos="129,54,0,0" width="27" height="26"
+		userdata="light_22" tooltip="1" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/22.png'" keysetimage="file='kb/keyset/22.png'"
+		normalimage="file='kb/kbKey_normal.png' source='129,54,156,80'"
+		hotimage="file='kb/kbKey_over.png' source='129,54,156,80'"
+		pushedimage="file='kb/kbKey_down.png' source='129,54,156,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='129,54,156,80'"/>
+
+	<DeviceKeyButton name="key_23" style="k_btn_style" pos="158,54,0,0" width="27" height="26"
+		userdata="light_23" tooltip="2" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/23.png'" keysetimage="file='kb/keyset/23.png'"
+		normalimage="file='kb/kbKey_normal.png' source='158,54,185,80'"
+		hotimage="file='kb/kbKey_over.png' source='158,54,185,80'"
+		pushedimage="file='kb/kbKey_down.png' source='158,54,185,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='158,54,185,80'"/>
+
+	<DeviceKeyButton name="key_24" style="k_btn_style" pos="187,54,0,0" width="27" height="26"
+		userdata="light_24" tooltip="3" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/24.png'" keysetimage="file='kb/keyset/24.png'"
+		normalimage="file='kb/kbKey_normal.png' source='187,54,214,80'"
+		hotimage="file='kb/kbKey_over.png' source='187,54,214,80'"
+		pushedimage="file='kb/kbKey_down.png' source='187,54,214,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='187,54,214,80'"/>
+
+	<DeviceKeyButton name="key_25" style="k_btn_style" pos="216,54,0,0" width="27" height="26"
+		userdata="light_25" tooltip="4" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/25.png'" keysetimage="file='kb/keyset/25.png'"
+		normalimage="file='kb/kbKey_normal.png' source='216,54,243,80'"
+		hotimage="file='kb/kbKey_over.png' source='216,54,243,80'"
+		pushedimage="file='kb/kbKey_down.png' source='216,54,243,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='216,54,243,80'"/>
+
+	<DeviceKeyButton name="key_26" style="k_btn_style" pos="245,54,0,0" width="27" height="26"
+		userdata="light_26" tooltip="5" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/26.png'" keysetimage="file='kb/keyset/26.png'"
+		normalimage="file='kb/kbKey_normal.png' source='245,54,272,80'"
+		hotimage="file='kb/kbKey_over.png' source='245,54,272,80'"
+		pushedimage="file='kb/kbKey_down.png' source='245,54,272,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='245,54,272,80'"/>
+
+	<DeviceKeyButton name="key_27" style="k_btn_style" pos="274,54,0,0" width="27" height="26"
+		userdata="light_27" tooltip="6" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/27.png'" keysetimage="file='kb/keyset/27.png'"
+		normalimage="file='kb/kbKey_normal.png' source='274,54,301,80'"
+		hotimage="file='kb/kbKey_over.png' source='274,54,301,80'"
+		pushedimage="file='kb/kbKey_down.png' source='274,54,301,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='274,54,301,80'"/>
+
+	<DeviceKeyButton name="key_28" style="k_btn_style" pos="303,54,0,0" width="27" height="26"
+		userdata="light_28" tooltip="7" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/28.png'" keysetimage="file='kb/keyset/28.png'"
+		normalimage="file='kb/kbKey_normal.png' source='303,54,330,80'"
+		hotimage="file='kb/kbKey_over.png' source='303,54,330,80'"
+		pushedimage="file='kb/kbKey_down.png' source='303,54,330,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='303,54,330,80'"/>
+
+	<DeviceKeyButton name="key_29" style="k_btn_style" pos="332,54,0,0" width="27" height="26"
+		userdata="light_29" tooltip="8" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/29.png'" keysetimage="file='kb/keyset/29.png'"
+		normalimage="file='kb/kbKey_normal.png' source='332,54,359,80'"
+		hotimage="file='kb/kbKey_over.png' source='332,54,359,80'"
+		pushedimage="file='kb/kbKey_down.png' source='332,54,359,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='332,54,359,80'"/>
+
+	<DeviceKeyButton name="key_30" style="k_btn_style" pos="361,54,0,0" width="26" height="26"
+		userdata="light_30" tooltip="9" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/30.png'" keysetimage="file='kb/keyset/30.png'"
+		normalimage="file='kb/kbKey_normal.png' source='361,54,387,80'"
+		hotimage="file='kb/kbKey_over.png' source='361,54,387,80'"
+		pushedimage="file='kb/kbKey_down.png' source='361,54,387,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='361,54,387,80'"/>
+
+	<DeviceKeyButton name="key_31" style="k_btn_style" pos="390,54,0,0" width="26" height="26"
+		userdata="light_31" tooltip="0" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/31.png'" keysetimage="file='kb/keyset/31.png'"
+		normalimage="file='kb/kbKey_normal.png' source='390,54,416,80'"
+		hotimage="file='kb/kbKey_over.png' source='390,54,416,80'"
+		pushedimage="file='kb/kbKey_down.png' source='390,54,416,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='390,54,416,80'"/>
+
+	<DeviceKeyButton name="key_32" style="k_btn_style" pos="419,54,0,0" width="26" height="26"
+		userdata="light_32" tooltip="-" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/32.png'" keysetimage="file='kb/keyset/32.png'"
+		normalimage="file='kb/kbKey_normal.png' source='419,54,445,80'"
+		hotimage="file='kb/kbKey_over.png' source='419,54,445,80'"
+		pushedimage="file='kb/kbKey_down.png' source='419,54,445,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='419,54,445,80'"/>
+
+	<DeviceKeyButton name="key_33" style="k_btn_style" pos="448,54,0,0" width="26" height="26"
+		userdata="light_33" tooltip="+" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/33.png'" keysetimage="file='kb/keyset/33.png'"
+		normalimage="file='kb/kbKey_normal.png' source='448,54,474,80'"
+		hotimage="file='kb/kbKey_over.png' source='448,54,474,80'"
+		pushedimage="file='kb/kbKey_down.png' source='448,54,474,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='448,54,474,80'"/>
+
+	<DeviceKeyButton name="key_34" style="k_btn_style" pos="476,54,0,0" width="56" height="26"
+		userdata="light_34" tooltip="BackSpace" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/34.png'" keysetimage="file='kb/keyset/34.png'"
+		normalimage="file='kb/kbKey_normal.png' source='476,54,532,80'"
+		hotimage="file='kb/kbKey_over.png' source='476,54,532,80'"
+		pushedimage="file='kb/kbKey_down.png' source='476,54,532,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='476,54,532,80'"/>
+
+	<DeviceKeyButton name="key_35" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_35" tooltip="Insert" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/35.png'" keysetimage="file='kb/keyset/35.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_36" style="k_btn_style" pos="547,53,0,0" width="27" height="27"
+		userdata="light_36" tooltip="Home" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/36.png'" keysetimage="file='kb/keyset/36.png'"
+		normalimage="file='kb/kbKey_normal.png' source='547,53,574,80'"
+		hotimage="file='kb/kbKey_over.png' source='547,53,574,80'"
+		pushedimage="file='kb/kbKey_down.png' source='547,53,574,80'"
+		disabledimage="file='kb/kbKey_disable.png' source='547,53,574,80'"/>
+
+	<DeviceKeyButton name="key_37" style="k_btn_style" pos="547,82,0,0" width="27" height="27"
+		userdata="light_37" tooltip="PageUp" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/37.png'" keysetimage="file='kb/keyset/37.png'"
+		normalimage="file='kb/kbKey_normal.png' source='547,82,574,109'"
+		hotimage="file='kb/kbKey_over.png' source='547,82,574,109'"
+		pushedimage="file='kb/kbKey_down.png' source='547,82,574,109'"
+		disabledimage="file='kb/kbKey_disable.png' source='547,82,574,109'"/>
+
+	<DeviceKeyButton name="key_38" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_38" tooltip="NumLock" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/38.png'" keysetimage="file='kb/keyset/38.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_39" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_39" tooltip="Num /" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/39.png'" keysetimage="file='kb/keyset/39.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_40" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_40" tooltip="Num *" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/40.png'" keysetimage="file='kb/keyset/40.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_41" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_41" tooltip="Num -" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/41.png'" keysetimage="file='kb/keyset/41.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_0" style="k_btn_style" pos="100,18,0,0" width="27" height="26"
+		userdata="light_0" tooltip="Esc" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/0.png'" keysetimage="file='kb/keyset/0.png'"
+		normalimage="file='kb/kbKey_normal.png' source='100,18,127,44'"
+		hotimage="file='kb/kbKey_over.png' source='100,18,127,44'"
+		pushedimage="file='kb/kbKey_down.png' source='100,18,127,44'"
+		disabledimage="file='kb/kbKey_disable.png' source='100,18,127,44'"/>
+
+	<DeviceKeyButton name="key_16" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_16" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/16.png'" keysetimage="file='kb/keyset/16.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_1" style="k_btn_style" pos="136,17,0,0" width="28" height="28"
+		userdata="light_1" tooltip="F1" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/1.png'" keysetimage="file='kb/keyset/1.png'"
+		normalimage="file='kb/kbKey_normal.png' source='136,17,164,45'"
+		hotimage="file='kb/kbKey_over.png' source='136,17,164,45'"
+		pushedimage="file='kb/kbKey_down.png' source='136,17,164,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='136,17,164,45'"/>
+
+	<DeviceKeyButton name="key_2" style="k_btn_style" pos="165,17,0,0" width="28" height="28"
+		userdata="light_2" tooltip="F2" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/2.png'" keysetimage="file='kb/keyset/2.png'"
+		normalimage="file='kb/kbKey_normal.png' source='165,17,193,45'"
+		hotimage="file='kb/kbKey_over.png' source='165,17,193,45'"
+		pushedimage="file='kb/kbKey_down.png' source='165,17,193,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='165,17,193,45'"/>
+
+	<DeviceKeyButton name="key_3" style="k_btn_style" pos="194,17,0,0" width="28" height="28"
+		userdata="light_3" tooltip="F3" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/3.png'" keysetimage="file='kb/keyset/3.png'"
+		normalimage="file='kb/kbKey_normal.png' source='194,17,222,45'"
+		hotimage="file='kb/kbKey_over.png' source='194,17,222,45'"
+		pushedimage="file='kb/kbKey_down.png' source='194,17,222,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='194,17,222,45'"/>
+
+	<DeviceKeyButton name="key_4" style="k_btn_style" pos="223,17,0,0" width="28" height="28"
+		userdata="light_4" tooltip="F4" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/4.png'" keysetimage="file='kb/keyset/4.png'"
+		normalimage="file='kb/kbKey_normal.png' source='223,17,251,45'"
+		hotimage="file='kb/kbKey_over.png' source='223,17,251,45'"
+		pushedimage="file='kb/kbKey_down.png' source='223,17,251,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='223,17,251,45'"/>
+
+	<DeviceKeyButton name="key_5" style="k_btn_style" pos="259,17,0,0" width="28" height="28"
+		userdata="light_5" tooltip="F5" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/5.png'" keysetimage="file='kb/keyset/5.png'"
+		normalimage="file='kb/kbKey_normal.png' source='259,17,287,45'"
+		hotimage="file='kb/kbKey_over.png' source='259,17,287,45'"
+		pushedimage="file='kb/kbKey_down.png' source='259,17,287,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='259,17,287,45'"/>
+
+	<DeviceKeyButton name="key_6" style="k_btn_style" pos="288,17,0,0" width="28" height="28"
+		userdata="light_6" tooltip="F6" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/6.png'" keysetimage="file='kb/keyset/6.png'"
+		normalimage="file='kb/kbKey_normal.png' source='288,17,316,45'"
+		hotimage="file='kb/kbKey_over.png' source='288,17,316,45'"
+		pushedimage="file='kb/kbKey_down.png' source='288,17,316,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='288,17,316,45'"/>
+
+	<DeviceKeyButton name="key_7" style="k_btn_style" pos="317,17,0,0" width="28" height="28"
+		userdata="light_7" tooltip="F7" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/7.png'" keysetimage="file='kb/keyset/7.png'"
+		normalimage="file='kb/kbKey_normal.png' source='317,17,345,45'"
+		hotimage="file='kb/kbKey_over.png' source='317,17,345,45'"
+		pushedimage="file='kb/kbKey_down.png' source='317,17,345,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='317,17,345,45'"/>
+
+	<DeviceKeyButton name="key_8" style="k_btn_style" pos="346,17,0,0" width="28" height="28"
+		userdata="light_8" tooltip="F8" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/8.png'" keysetimage="file='kb/keyset/8.png'"
+		normalimage="file='kb/kbKey_normal.png' source='346,17,374,45'"
+		hotimage="file='kb/kbKey_over.png' source='346,17,374,45'"
+		pushedimage="file='kb/kbKey_down.png' source='346,17,374,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='346,17,374,45'"/>
+
+	<DeviceKeyButton name="key_9" style="k_btn_style" pos="382,17,0,0" width="28" height="28"
+		userdata="light_9" tooltip="F9" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/9.png'" keysetimage="file='kb/keyset/9.png'"
+		normalimage="file='kb/kbKey_normal.png' source='382,17,410,45'"
+		hotimage="file='kb/kbKey_over.png' source='382,17,410,45'"
+		pushedimage="file='kb/kbKey_down.png' source='382,17,410,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='382,17,410,45'"/>
+
+	<DeviceKeyButton name="key_10" style="k_btn_style" pos="411,17,0,0" width="28" height="28"
+		userdata="light_10" tooltip="F10" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/10.png'" keysetimage="file='kb/keyset/10.png'"
+		normalimage="file='kb/kbKey_normal.png' source='411,17,439,45'"
+		hotimage="file='kb/kbKey_over.png' source='411,17,439,45'"
+		pushedimage="file='kb/kbKey_down.png' source='411,17,439,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='411,17,439,45'"/>
+
+	<DeviceKeyButton name="key_11" style="k_btn_style" pos="440,17,0,0" width="28" height="28"
+		userdata="light_11" tooltip="F11" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/11.png'" keysetimage="file='kb/keyset/11.png'"
+		normalimage="file='kb/kbKey_normal.png' source='440,17,468,45'"
+		hotimage="file='kb/kbKey_over.png' source='440,17,468,45'"
+		pushedimage="file='kb/kbKey_down.png' source='440,17,468,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='440,17,468,45'"/>
+
+	<DeviceKeyButton name="key_12" style="k_btn_style" pos="469,17,0,0" width="27" height="28"
+		userdata="light_12" tooltip="F12" usertooltip="DeviceSetInfoDialog.xml" visible="true"
+		lightimage="file='kb/light/12.png'" keysetimage="file='kb/keyset/12.png'"
+		normalimage="file='kb/kbKey_normal.png' source='469,17,496,45'"
+		hotimage="file='kb/kbKey_over.png' source='469,17,496,45'"
+		pushedimage="file='kb/kbKey_down.png' source='469,17,496,45'"
+		disabledimage="file='kb/kbKey_disable.png' source='469,17,496,45'"/>
+
+	<DeviceKeyButton name="key_13" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_13" tooltip="PrintScreen" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/13.png'" keysetimage="file='kb/keyset/13.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_14" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_14" tooltip="ScrollLock" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/14.png'" keysetimage="file='kb/keyset/14.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_15" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_15" tooltip="Pause/Break" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/15.png'" keysetimage="file='kb/keyset/15.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_17" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_17" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/17.png'" keysetimage="file='kb/keyset/17.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_18" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_18" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/18.png'" keysetimage="file='kb/keyset/18.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_19" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_19" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/19.png'" keysetimage="file='kb/keyset/19.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+	<DeviceKeyButton name="key_20" style="k_btn_style" pos="1,1,0,0" width="1" height="1"
+		userdata="light_20" tooltip="NULL" usertooltip="DeviceSetInfoDialog.xml" visible="false"
+		lightimage="file='kb/light/20.png'" keysetimage="file='kb/keyset/20.png'"
+		normalimage="file='kb/kbKey_normal.png' source='1,1,2,2'"
+		hotimage="file='kb/kbKey_over.png' source='1,1,2,2'"
+		pushedimage="file='kb/kbKey_down.png' source='1,1,2,2'"
+		disabledimage="file='kb/kbKey_disable.png' source='1,1,2,2'"/>
+
+
+				</SelectPanel>
+				</HorizontalLayout>
+				<Control/>						
+				<!-- 下 -->
+				<Label bkimage="file='common/tiap12.png'"  text="anzsz_text" textcolor="#FFf49136" resourcetext="true" width="957" height="38" textpadding="10,0,0,0" visible="false"/>	
+				<!--布局键盘下侧-->
+				<TabLayout name="device_key_function_switch" height="190" vscrollbar="false" bkcolor="#ff408185">		
+					
+					<VerticalLayout width="1000"  height="240" padding="0,0,0,0" inset="0,0,0,0">
+						<LightSetControlUI />
+					</VerticalLayout>
+					
+					<VerticalLayout width="1000"  height="240" padding="0,0,0,0" inset="0,0,0,0">
+						<KeySetControlUI />
+					</VerticalLayout>
+									
+							
+				</TabLayout>
+				
+			</VerticalLayout>
+			
+			<VerticalLayout width="766" height="488">
+				<MacroSetControlUI />
+			</VerticalLayout>
+			
+			<VerticalLayout width="766" height="488">
+				<ShootKeySetControlUI />
+			</VerticalLayout>
+			
+			<VerticalLayout width="766" height="488"  bkcolor="#FF252525">	
+				<VerticalLayout width="766" height="488" padding="27,22,0,0" >
+					<HorizontalLayout width="500" height="80"  >
+						<VerticalLayout width="110" height="80" >
+							<Text text="Windows_Lock" width="110" height="16" style="label_style" glowsize="0" font="4" resourcetext="true" align="center" wordbreak="true"  />
+							<Option name="winlockflag_option" width="41" height="51" padding="35,12,0,0"
+								bkimage="common/Windows-Lock.png"	
+								normalimage="common/Windows-Lock.png"	
+								hotimage="common/Windows-Lock1.png"	
+								pushedimage="common/Windows-Lock1.png"	
+								selectedimage="common/Windows-Lock1.png" />
+						</VerticalLayout>	
+						
+						<VerticalLayout width="110" height="80" padding="50,0,0,0">
+							<Text text="Exchange_key" width="110" height="16" style="label_style" visible="true" glowsize="0" font="4" resourcetext="true" align="center" padding="0,0,0,0"/>	
+							<Option name="wflag_option" width="63" height="41" visible="true" padding="23,17,0,0" 
+								bkimage="common/Exchange-key.png"	
+								normalimage="common/Exchange-key.png"	
+								hotimage="common/Exchange-key1.png"	
+								pushedimage="common/Exchange-key1.png"	
+								selectedimage="common/Exchange-key1.png" />
+						</VerticalLayout>
+	
+						<VerticalLayout width="110" height="80" padding="50,0,0,0"visible="false" >
+							<Text text="N_Key" width="110" height="16" style="label_style" glowsize="0" font="4" visible="false" resourcetext="true" align="center" padding="0,0,0,0"/>
+							<Option name="6flag_option" width="61" height="35" visible="true"  padding="25,20,0,0"
+								bkimage="common/N Key.png"	
+								normalimage="common/N Key.png"	
+								hotimage="common/N Key1.png"	
+								pushedimage="common/N Key1.png"	
+								selectedimage="common/N Key1.png"  />
+						</VerticalLayout>
+						
+					</HorizontalLayout>	
+					
+					<VerticalLayout width="500" height="100" padding="0,103,0,0" >
+							<Text text="window_key_set_tiptext" height="16" style="label_style" glowsize="0" font="4" visible="true" resourcetext="true" align="left" padding="0,0,0,0"/>
+							<HorizontalLayout height="40" visible="true"  padding="0,20,0,0">
+								<Button	name="windowdeviceset_0" width="57" height="40" visible="true"  padding="10,0,0,0"
+									bkimage="common/window_key_normal.png"	
+									normalimage="common/window_key_normal.png"	
+									hotimage="common/window_key_down.png"	
+									pushedimage="common/window_key_down.png"	
+									selectedimage="common/window_key_down.png"  />
+								<Text text="window_key_set_text" height="40" style="label_style" glowsize="0" font="4" visible="true" resourcetext="true" align="left" valign="center" padding="14,0,0,0"/>
+							</HorizontalLayout>
+					</VerticalLayout>
+					
+					<VerticalLayout height="80" padding="0,70,0,0">
+						<Text text="Polling_Rate" height="16" style="label_style" glowsize="0" font="4" resourcetext="true" align="left" wordbreak="true" padding="0,0,0,0" />
+						<HorizontalLayout width="500" height="27"  padding="0,10,0,0" >
+							<Option name="polling_rate_option_0" width="80" height="27" padding="0,0,0,0" 
+								bkimage="file='common/1000HZ_normal.png'"
+								normalimage="file='common/1000HZ_normal.png'" 
+								hotimage="file='common/1000HZ_hot.png'"
+								pushedimage="file='common/1000HZ_down.png'"
+								selectedimage="file='common/1000HZ_down.png'" />
+							<Option name="polling_rate_option_1" width="80" height="27" padding="21,0,0,0" 
+								bkimage="file='common/500HZ1.png'"
+								normalimage="file='common/500HZ1.png'" 
+								hotimage="file='common/500HZ_hot.png'"
+								pushedimage="file='common/500HZ.png'"
+								selectedimage="file='common/500HZ.png'" />
+							<Option name="polling_rate_option_2" width="80" height="27" padding="21,0,0,0" 
+								bkimage="file='common/250HZ.png'"
+								normalimage="file='common/250HZ.png'" 
+								hotimage="file='common/250HZ_hot.png'"
+								pushedimage="file='common/250HZ1.png'"
+								selectedimage="file='common/250HZ1.png'" />
+							<Option name="polling_rate_option_3" width="80" height="27" padding="21,0,0,0" 
+								bkimage="file='common/125HZ1.png'"
+								normalimage="file='common/125HZ1.png'" 
+								hotimage="file='common/125HZ_hot.png'"
+								pushedimage="file='common/125HZ.png'"
+								selectedimage="file='common/125HZ.png'" />
+						</HorizontalLayout>
+					</VerticalLayout>
+					
+					<!--华丽的分割线-->
+					<Label width="712" height="1" padding="0,72,0,0" visible="false" bkcolor="#FF032d2b" />
+					
+					<VerticalLayout width="345" height="223" visible="false" padding="0,14,0,0">		
+						<Label text="Repeat_Rate" style="label_style" height="16" glowsize="0" font="4" resourcetext="true" padding="0,0,0,0"/>
+						<Slider name="repeat_delay_check_" style="slider_style" enabled="true" padding="0,20" height="14" value="3" min="0" max="31"/>
+						<Label name="repeat_delay_time_label1" text="Repeat_Delay_Time" style="label_style" glowsize="0" height="16" font="4" resourcetext="false" padding="0,20,0,0"/>
+						<HorizontalLayout width="345" height="27" padding="0,20,0,0">
+							
+							<Option  name="repeat_delay_check_0" width="55" height="27" 
+									bkimage="common/x1_normal.png"	
+									normalimage="common/x1_normal.png"	
+									hotimage="common/x1_hot.png"	
+									pushedimage="common/x1_down.png"	
+									selectedimage="common/x1_down.png" padding="0,0,0,0" />	
+							<Option  name="repeat_delay_check_1" width="55" height="27" 
+									bkimage="common/x2_normal.png"	
+									normalimage="common/x2_normal.png"	
+									hotimage="common/x2_hot.png"	
+									pushedimage="common/x2_down.png"	
+									selectedimage="common/x2_down.png"  padding="15,0,0,0" />	
+							<Option  name="repeat_delay_check_2" width="55" height="27" 
+									bkimage="common/x3_normal.png"	
+									normalimage="common/x3_normal.png"	
+									hotimage="common/x3_hot.png"	
+									pushedimage="common/x3_down.png"	
+									selectedimage="common/x3_down.png"  padding="15,0,0,0" />			 
+							<Option  name="repeat_delay_check_3" width="55" height="27" 	
+									bkimage="common/x4_normal.png"	
+									normalimage="common/x4_normal.png"	
+									hotimage="common/x4_hot.png"	
+									pushedimage="common/x4_down.png"	
+									selectedimage="common/x4_down.png"  padding="15,0,0,0" />								 
+						</HorizontalLayout>
+					</VerticalLayout>
+					<VerticalLayout width="345" visible="false" visible="false"  padding="0,28,0,0"  >
+						<Label text="Repeat_Rate_Test" style="label_style" glowsize="0" font="4" resourcetext="true" padding="0,5,0,0" width="345" height="25"/>
+						<HorizontalLayout height="70" width="345" bkcolor="#FF111111" padding="0,5,0,0">                 				
+							<RichEdit name="repeat_input_richedit" tipvalue="Click Here And Hold Down A Key To Test Repeat Rate." vscrollbar="true" textcolor="#FF666666" disabledbkcolor="#FF303030" bkcolor="#FF111111" nativebkcolor="#FF111111" disabledtextcolor="#FF444444" font="7"  textpadding="5,0,5,0" width="345" height="70" multiline="true"/>					 
+						</HorizontalLayout>
+							<Button name="reset_repeat_btn" width="345" height="30" padding="0,8,0,0"
+									bkcolor="#FF000000" hotbkcolor="#FF0099FF" pushedbkcolor="#FF0099FF" textcolor="#FFFFFFFF" disabledbkcolor="#FF303030" disabledtextcolor="#FF444444" text="Repeat_Retest_text" resourcetext="true" />
+					</VerticalLayout>				
+				</VerticalLayout>															
+			</VerticalLayout>
+			
+		</TabLayout>
+	</HorizontalLayout>
+	</EevisionKeyboardDevice>
+</Window>
